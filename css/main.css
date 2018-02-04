@@ -35,11 +35,13 @@ Table of Contents
   transition: all 0.2s ease 0s;
 }
 .fixed-top.header {
-  padding: 5px 0;
+  padding-top: 5px;
+  padding-bottom: 3px;
   transition: all 0.2s ease 0s;
 }
 .fixed-top.transparent-header {
-  background-color: #000;
+  background-color: #dad7d7;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.1);
 }
 .transparent-header ul.nav > li > a {
   color: #ddd;
@@ -53,8 +55,9 @@ Table of Contents
   opacity: 1;
 }
 .fixed-top.transparent-header ul.nav > li > a {
-  color: #fff;
+  color: #3e3c3c;
   opacity: 0.9;
+    
 }
 .fixed-top.transparent-header ul.nav > li > a:focus,
 .fixed-top.transparent-header ul.nav > li > a:hover,
@@ -72,7 +75,7 @@ Table of Contents
   position: relative;
 }
 .navbar-header {
-  padding: 12px 0;
+  padding: 8px 0;
 }
 .navbar-header .brand {
   font-size: 25px;
@@ -124,8 +127,7 @@ ul.nav > li.active > a {
 /***********************/
 
 .hero-section {
-  background-image: url(../img/background.jpg);
-  background-size: cover;
+  background-image: url(../img/bg.jpg);
 }
 .hero-content {
   padding-top: 135px;
@@ -141,7 +143,7 @@ ul.nav > li.active > a {
 }
 .icon-wrap {
   margin: 0 auto;
-  position: relative;
+  
 }
 
 .box-hover {
@@ -168,16 +170,28 @@ ul.nav > li.active > a {
 /**************************/
 
 .feature-section {
-  /*  background-image: url(../img/1.webp);*/
-  background-color: #090909;
-  position: relative;
-  z-index: 1;
-  padding: 0;
+/*     background-image: url(../img/1.webp);*/
+    background-color: #e9e9e9;
+    position: relative;
+    z-index: 1;
+    padding-top: 23px;
+    padding-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .feature-section h2 {
-  color: #fff !important;
-  margin-top: 60px !important;
+    color: #ff166e !important;
+    font-size: 43px;
+    font-weight: 600;
+}
+
+.feature-section h3 {
+    color: #000000 !important;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 5px;
+    margin-top: 22px;
 }
 .feature-section .display-table {
   background-color: rgba(9, 9, 9);
@@ -490,7 +504,7 @@ ul.nav > li.active > a {
 .scroll-to-top {
   display: block;
   text-align: center;
-  background-color: #1185a9;
+  background-color: #dad9d5;
   font-size: 12px;
   width: 40px;
   height: 40px;
@@ -595,11 +609,10 @@ section {
 }
 
 .pink {
-  background-color: rgb(255, 146, 170);
+/*  background-color: rgb(255, 146, 170);*/
+    color: #ff166e;
 }
-.pink {
-  background-color: red;
-}
+
 
 .select-color label {
   display: inline-block;
@@ -758,8 +771,9 @@ form h3 {
 }
 
 .telephone {
-  color: #ff8d00eb !important;
+  color: #ff166e !important;
   font-size: 23px !important;
+  font-weight: 900 !importnat;
 }
 
 .order-popup {
@@ -1057,7 +1071,7 @@ form h3 {
 }
 
 #testimonials h3 {
-  color: #1185a9;
+  color: #4d4b4b;
 }
 
 .free-box {
@@ -1099,4 +1113,46 @@ form h3 {
   background: url(/i/xico2.png.pagespeed.ic.M1Wdzpqf64.webp) no-repeat;
   background-position: 0 31px;
   padding: 0 30px 0 40px;
+}
+
+.apple-logo {
+    padding-bottom: 14px;
+}
+
+
+
+.stock-text {
+    background-color: #ff166e33;
+    padding: 9px 27px;
+    line-height: 24px;
+}
+
+.line-grey {
+    width: 100%;
+    color: #fff;
+    background-color: #797979;
+    
+}
+
+.icon-mybox {
+    width: 93px;
+    margin-top: 21px;
+    padding-right: 25px;
+    padding-top: 16px;
+}
+
+.float-r {
+    float: right;
+}
+
+.icon-text {
+   margin-left: 110px;
+}
+
+#testimonials {
+        background-color: #e9e9e9
+}
+
+.mn-top-15 {
+    margin-top: 130px;
 }

@@ -181,7 +181,7 @@ h6 a {
 }
 
 a {
-  color: #fda085;
+    color: #f83b82;
 }
 a:hover,
 a:active,
@@ -1112,11 +1112,11 @@ button {
 }
 
 .btn-cute {
-  background-image: linear-gradient(
-    to right,
-    #f6d365 0%,
-    #fa876a 50%,
-    #f9d35c 100%
+
+    background-image: linear-gradient( to right, #f6d365 0%, #fb2978 50%, #f9d35c 100% );
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
   );
   font-size: 16px;
   font-weight: 400;
