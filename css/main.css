@@ -1,6 +1,6 @@
 /*
 Theme Name: Murun - Responsive App Landing Page Template
-Desciption: Murun is a responsive App landing template. It’s one page, clean and modern design. Murun is built with latest HTML5, CSS3 and Bootstrap 3+. The clean and unique design will amaze you. Whatever you are browsing from mobile tablet or desktop/laptop, the Murun will be fit all screen sizes. Murun has everything you need to launch your site!
+Desciption: Murun is a responsive App landing template. Itâ€™s one page, clean and modern design. Murun is built with latest HTML5, CSS3 and Bootstrap 3+. The clean and unique design will amaze you. Whatever you are browsing from mobile tablet or desktop/laptop, the Murun will be fit all screen sizes. Murun has everything you need to launch your site!
 Theme URI: http://www.codingle.com/murtaxa/themeforest/murun_demo
 Author Name: Murtaxa
 Author URI: http://www.codingle.com
@@ -33,6 +33,8 @@ Table of Contents
   width: 100%;
   z-index: 999;
   transition: all 0.2s ease 0s;
+  background-color: #50505052;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.1);
 }
 .fixed-top.header {
   padding-top: 5px;
@@ -133,7 +135,7 @@ ul.nav > li.active > a {
   padding-top: 135px;
 }
 .hero-section .display-table {
-  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: rgba(0, 0, 0, 0.4); */
 }
 /************************/
 /** 3.0 Promo Section ***/
@@ -170,7 +172,7 @@ ul.nav > li.active > a {
 /**************************/
 
 .feature-section {
-/*     background-image: url(../img/1.webp);*/
+background-image: url(../img/pattern2.png);
     background-color: #e9e9e9;
     position: relative;
     z-index: 1;
@@ -559,14 +561,14 @@ section {
   left: 0;
   right: auto;
   top: 0;
-  content: "—";
+  content: "â€”";
   color: #fa876a;
 }
 .refInfo__Item:after {
   position: absolute;
   right: 0;
   top: 0;
-  content: "—";
+  content: "â€”";
   color: #fa876a;
 }
 
@@ -764,6 +766,10 @@ form h3 {
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
   padding: 45px 30px;
   border-radius: 9px;
+}
+
+.otziv-form {
+
 }
 
 .iphoneImage {
@@ -1071,7 +1077,7 @@ form h3 {
 }
 
 #testimonials h3 {
-  color: #4d4b4b;
+  color: #f74085;
 }
 
 .free-box {
@@ -1150,9 +1156,56 @@ form h3 {
 }
 
 #testimonials {
-        background-color: #e9e9e9
+/*        background-color: #e9e9e9*/
+    padding-top: 15px;
+    background-color: #e9e9e9;
+    background: url(../img/pattern.png);
 }
 
 .mn-top-15 {
     margin-top: 130px;
+}
+
+.fl-left {
+    float: left;
+}
+
+.wd-200 {
+    width: 200px;
+}
+
+.wd-400 {
+    width: 400px;
+}
+
+.h-50 {
+    height: 50px!important;
+}
+
+.wd-120 {
+    width: 120px;
+}
+
+.otzyvy {
+    display: flex;
+}
+
+.mn-bottom-25 {
+    margin-bottom: 25px;
+}
+
+.mn-bottom-45 {
+    margin-bottom: 45px;
+}
+
+.mn-bottom-60 {
+    margin-bottom: 60px;
+}
+
+.mn-bottom-140 {
+    margin-bottom: 140px;
+}
+
+.line-shadow {
+box-shadow: inset -2px 5px 10px -5px rgba(0,0,0,.3);
 }

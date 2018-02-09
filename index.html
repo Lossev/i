@@ -71,11 +71,11 @@
         <div class="display-table">
             <div class="table-cell">
                 <div class="container">
-                    <div class="hero-content ptb-115 text-center sm-no-padding">
-                        <h1 class="fz-45 text-white mb-10 xs-br-none">Apple Point - Оригинальные iPhone</h1>
-                        <p class="mb-10 lead text-white">Самые низкие цены в Челябинске с гарантией</p>
+                    <div class="col-md-6 hero-content ptb-115 text-center sm-no-padding">
+                        <h1 class="fz-45 text-white mb-20 xs-br-none">Apple Point - Оригинальные iPhone</h1>
+                        <p class="mb-45 lead text-gray">Самые низкие цены в Челябинске с гарантией</p>
                         <br>
-                        <div class="btn-group">
+                        <div class="btn-group fl-left mb-55">
                             <a href="#pricing" data-scroll="data-scroll" class="btn btn-cute">
                                 <i class="ti-arrow-down"></i>
                                 Каталог</a>
@@ -89,43 +89,9 @@
         <div class="container">
             <div class="section-heading mb-40 text-center">
                 <h2 class="mb-10">Наши преимущества</h2>
-                <!--                <p class="no-margin">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
+                
             </div>
            <div class="col-md-6">
-<!--
-                <div class="col-md-3">
-                            <img src="img/svg/008-hands.svg">
-                        <h4 class="fz-24 mb-10 mt-10">Подарки</h4>
-                        <p class="no-margin">Каждому покупателю стекло в подарок</p>
-                    
-                </div>
-                <div class="col-md-3">
-                        <div class="icon-wrap img-w-80 bdrs-50 bd-grey lh-80 fz-28">
-                            <img src="img/svg/015-multimedia.svg">
-                        </div>
-                        <h4 class="fz-24 mb-10 mt-10">Бесплатная настройка iPhone</h4>
-                        <p class="no-margin">Поможем вам активировать и настроить iPhone
-                           </p>
-                </div>
-                <div class="col-md-3 col-xs-6 sm-padding wow zoomIn" data-wow-delay="200ms" data-wow-duration="800ms">
-                    <div class="icon-box text-center">
-                        <div class="icon-wrap img-w-80 bdrs-50 bd-grey lh-80 fz-28">
-                            <img src="img/svg/014-money.svg" alt="">
-                        </div>
-                        <h4 class="fz-24 mb-10 mt-10">Скидка 50%</h4>
-                        <p class="no-margin">Предоставляем скидку на все акссесуары*</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6 sm-padding wow zoomIn" data-wow-delay="500ms" data-wow-duration="800ms">
-                    <div class="icon-box text-center">
-                        <div class="icon-wrap img-w-80 bdrs-50 bd-grey lh-80 fz-28">
-                            <img src="img/svg/003-placeholder.svg" alt="">
-                        </div>
-                        <h4 class="fz-24 mb-10 mt-10">Магазин в Челябинске</h4>
-                        <p class="no-margin">У нас покупать безопасно! Предоставляем чек и гарантийный талон</p>
-                    </div>
-                </div>
--->
                
                <div class="icon-mybox">
                  <img src="img/svg/015-multimedia.svg" align="left">
@@ -159,7 +125,8 @@
     <section id="features" class="feature-section bg-img">
         <div class="display-table">
             <div class="table-cell">
-                <div class="container">
+                <div class="container mr-25">
+                    
                    <div class="col-md-6"> 
                        <h2>Акция весь февраль</h2>
                        <img src="img/img/stock.png">
@@ -337,6 +304,7 @@
                 <h2 class="">Клиенты о нас</h2>
             </div>
             <div class="row">
+                <div class="otzyv">
                 <div class="col-sm-2 text-right">
                     <img src="http://ifosha.store/images/u3.png" />
                 </div>
@@ -348,6 +316,7 @@
                         магазина попросил подготовить мне на выбор и iPhone 6, и iPhone 6s. Уже в самом магазине мы вместе
                         с продавцом взвесили все «за» и «против» той и другой модели и остановились на 6s. Любимая дочка осталась
                         очень довольна! Пользуется моим подарком 2-ю неделю. Пока проблем не было! Спасибо вам большое!</p>
+                    <div class="line-shadow"></div>
                 </div>
             </div>
 
@@ -370,7 +339,7 @@
                     <p>Покупали с мужем семерку, плохо работал микрофон. Отнесла обратно и через 3 дня мне дали новый телефон, без всяких проблем. Ребята извинились и дали в подарок внешний аккумулятор, видно что клиент важен. Спасибо</p>
                 </div>
             </div>
-            <div class="spacing30"></div>
+            <div class="spacing60"></div>
             <div class="row">
                 <div class="col-sm-10 text-right">
                     <h3>Стас</h3>
@@ -383,12 +352,53 @@
                 </div><br>
                 
             </div>
-            <h4 class="text-center">Отзывы принимаем на e-mail: mail@apple-point.ru</h4>
+                
+                <div id="otzyvy" class="otzyvy">
+                 <form action="" class="otziv-form">
+                     <!-- Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="Apple-Point">
+                        <input type="hidden" name="admin_email" value="lttasap@ya.ru">
+                        <input type="hidden" name="from_email" value="lttasap@ya.ru">
+                        <input type="hidden" name="form_subject" value="Отзыв - Apple-Point">
+                        <!-- END Hidden Required Fields -->
+                     <div class="form-group">
+                            <input type="text" class="form-control wd-120" name="name" placeholder="Имя" required>
+                        </div>
+                     <div class="form-group">
+                            <input type="text" class="form-control wd-120" name="name" placeholder="Имя" required>
+                        </div>
+                       
+                     <div class="form-group2">
+                            <input type="text" class="form-control wd-400 h-50" name="otzyv" placeholder="Отзыв" required>
+                        </div>
+                        <button class="btn btn-cute" type="submit">Отправить</button>
+                        <div class="alert alert-success">Отзыв отправлен на модерацию</div>
+                    </form>
+                </div>
+    </div>
+<!--            <h4 class="text-center mt-10">Отзывы принимаем на e-mail: mail@apple-point.ru</h4>-->
         </div>
     </section>
     <section id="numbers">
         <div class="container">
             <div class="row">
+                
+        <div class="container mn-bottom-140">
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <h3>420</h3>
+                    <p>Телефонов продано</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>98%</h3>
+                    <p>Положительных отзывов</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>93</h3>
+                    <p>Повторных покупок</p>
+                </div>
+            </div>
+        </div>
                 <div class="col-sm-3"></div>
                 <div class="col-sm-6">
                     <form action="" class="questionsForm">
@@ -415,22 +425,6 @@
         </div>
     
     
-        <div class="container mn-top-15">
-            <div class="row text-center">
-                <div class="col-sm-4">
-                    <h3>420</h3>
-                    <p>Телефонов продано</p>
-                </div>
-                <div class="col-sm-4">
-                    <h3>98%</h3>
-                    <p>Положительных отзывов</p>
-                </div>
-                <div class="col-sm-4">
-                    <h3>93</h3>
-                    <p>Повторных покупок</p>
-                </div>
-            </div>
-        </div>
     </section>
 
     <section class="contact-section padding" id="contacts">
@@ -467,7 +461,7 @@
     <footer class="footer-section bg-dark bd-top-dark ptb-40 tt-u">
         <div class="container">
             <div class="col-sm-6 xs-padding xs-text-center">
-                <p class="text-light fz-12">@2017 Apple-Point, Челябинск, Чайковского 20б</p>
+                <p class="text-light fz-12">@2018 Apple-Point, Челябинск, Чайковского 20б</p>
             </div>
 
         </div>

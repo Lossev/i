@@ -1,6 +1,6 @@
 /*
 Theme Name: Murun - Responsive App Landing Page Template
-Desciption: Murun is a responsive App landing template. It’s one page, clean and modern design. Murun is built with latest HTML5, CSS3 and Bootstrap 3+. The clean and unique design will amaze you. Whatever you are browsing from mobile tablet or desktop/laptop, the Murun will be fit all screen sizes. Murun has everything you need to launch your site!
+Desciption: Murun is a responsive App landing template. Itâ€™s one page, clean and modern design. Murun is built with latest HTML5, CSS3 and Bootstrap 3+. The clean and unique design will amaze you. Whatever you are browsing from mobile tablet or desktop/laptop, the Murun will be fit all screen sizes. Murun has everything you need to launch your site!
 Theme URI: http://www.codingle.com/murtaxa/themeforest/murun_demo
 Author Name: Murtaxa
 Author URI: http://www.codingle.com
@@ -293,7 +293,13 @@ textarea:-ms-input-placeholder {
 /** Text Color **/
 /****************/
 .text-white {
-  color: #fff;
+  color: #7f7a7a;
+  float:  left;
+}
+
+.text-gray {
+  color: #7f7a7a;
+  float:  left;
 }
 .text-black {
   color: #555;
@@ -467,6 +473,7 @@ textarea:-ms-input-placeholder {
 }
 .text-right {
   text-align: right;
+  border: 7px;
 }
 
 /********************/
@@ -610,8 +617,8 @@ textarea:-ms-input-placeholder {
   padding-bottom: 100px;
 }
 .ptb-115 {
-  padding-top: 115px;
-  padding-bottom: 115px;
+  padding-top: 150px;
+/*  padding-bottom: 99px;*/
 }
 .ptb-120 {
   padding-top: 115px;
@@ -936,6 +943,7 @@ textarea:-ms-input-placeholder {
 }
 .fz-45 {
   font-size: 45px;
+  text-align: left;
 }
 .fz-50 {
   font-size: 50px;
@@ -1016,11 +1024,10 @@ button {
   width: 50%;
 }
 .bg-img {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  background-size: cover;
+    
+ 
 }
+
 
 /********************/
 /** Position **/
@@ -1298,6 +1305,19 @@ body.loaded #preloader {
   height: 45px;
   border-radius: 8px;
 }
+
+.form-control-name {
+  height: 45px;
+  border-radius: 8px;
+  width: 30px;
+}
+
+.form-control-otzyv {
+  height: 45px;
+  border-radius: 8px;
+  width: 300px;
+}
+
 .form-control::placeholder {
   color: #555 !important;
 }
