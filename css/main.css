@@ -1073,7 +1073,7 @@ form h3 {
 }
 
 #testimonials p {
-  margin-bottom: 45px;
+  margin-bottom: 60px;
 }
 
 #testimonials h3 {
@@ -1162,6 +1162,8 @@ form h3 {
     background: url(../img/pattern.png);
 }
 
+
+
 .mn-top-15 {
     margin-top: 130px;
 }
@@ -1208,4 +1210,35 @@ form h3 {
 
 .line-shadow {
 box-shadow: inset -2px 5px 10px -5px rgba(0,0,0,.3);
+}
+
+.more {
+    display: none;
+}
+
+
+.form-otziv {
+    display: flex;
+    justify-content: center;
+}
+
+.input-otziv {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.wh-input {
+    width: 400px;
+    height: 100px;
+    margin-right: 15px;
+    
+}
+
+.btn-important {
+    min-height: 30px!important;
+    min-width: 40px!important;
+    
 }
